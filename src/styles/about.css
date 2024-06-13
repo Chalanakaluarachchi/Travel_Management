@@ -1,0 +1,133 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7fafc;
+  color: #333;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.text-gray-800 {
+  color: #2d3748;
+}
+
+.header {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-overlay h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.section {
+  padding: 4rem 1rem;
+}
+
+.section h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #5a67d8;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.section p {
+  margin-top: 0.5rem;
+  font-size: 1.875rem;
+  font-weight: 800;
+  text-align: center;
+  color: #1a202c;
+}
+
+.section-desc {
+  margin-top: 1rem;
+  max-width: 700px;
+  font-size: 1.25rem;
+  color: #4a5568;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-grid {
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 2.5rem;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-member h3 {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #1a202c;
+}
+
+.team-member p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #718096;
+}
+
+.destinations-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 1.5rem;
+}
+
+.destination {
+  position: relative;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.destination img {
+  width: 100%;
+  height: 18rem;
+  object-fit: cover;
+}
+
+.destination-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+
+.destination-overlay h3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: white;
+}
